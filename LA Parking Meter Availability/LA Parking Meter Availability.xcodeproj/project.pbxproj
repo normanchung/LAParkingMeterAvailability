@@ -1,0 +1,474 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B8B142BC25089CC5006D3BFA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8B142BB25089CC5006D3BFA /* AppDelegate.swift */; };
+		B8B142BE25089CC5006D3BFA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8B142BD25089CC5006D3BFA /* SceneDelegate.swift */; };
+		B8B142C025089CC5006D3BFA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8B142BF25089CC5006D3BFA /* ViewController.swift */; };
+		B8B142C325089CC5006D3BFA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B8B142C125089CC5006D3BFA /* Main.storyboard */; };
+		B8B142C525089CC6006D3BFA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B8B142C425089CC6006D3BFA /* Assets.xcassets */; };
+		B8B142C825089CC6006D3BFA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B8B142C625089CC6006D3BFA /* LaunchScreen.storyboard */; };
+		B8B142D325089CC6006D3BFA /* LA_Parking_Meter_AvailabilityTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8B142D225089CC6006D3BFA /* LA_Parking_Meter_AvailabilityTests.swift */; };
+		B8B142E02508D27D006D3BFA /* LocationSearchTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8B142DF2508D27D006D3BFA /* LocationSearchTable.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B8B142CF25089CC6006D3BFA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B8B142B025089CC5006D3BFA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B8B142B725089CC5006D3BFA;
+			remoteInfo = "LA Parking Meter Availability";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B8B142B825089CC5006D3BFA /* LA Parking Meter Availability.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "LA Parking Meter Availability.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B8B142BB25089CC5006D3BFA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B8B142BD25089CC5006D3BFA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		B8B142BF25089CC5006D3BFA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B8B142C225089CC5006D3BFA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B8B142C425089CC6006D3BFA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B8B142C725089CC6006D3BFA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B8B142C925089CC6006D3BFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B8B142CE25089CC6006D3BFA /* LA Parking Meter AvailabilityTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "LA Parking Meter AvailabilityTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B8B142D225089CC6006D3BFA /* LA_Parking_Meter_AvailabilityTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LA_Parking_Meter_AvailabilityTests.swift; sourceTree = "<group>"; };
+		B8B142D425089CC6006D3BFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B8B142DF2508D27D006D3BFA /* LocationSearchTable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationSearchTable.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B8B142B525089CC5006D3BFA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B8B142CB25089CC6006D3BFA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B8B142AF25089CC5006D3BFA = {
+			isa = PBXGroup;
+			children = (
+				B8B142BA25089CC5006D3BFA /* LA Parking Meter Availability */,
+				B8B142D125089CC6006D3BFA /* LA Parking Meter AvailabilityTests */,
+				B8B142B925089CC5006D3BFA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B8B142B925089CC5006D3BFA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B8B142B825089CC5006D3BFA /* LA Parking Meter Availability.app */,
+				B8B142CE25089CC6006D3BFA /* LA Parking Meter AvailabilityTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B8B142BA25089CC5006D3BFA /* LA Parking Meter Availability */ = {
+			isa = PBXGroup;
+			children = (
+				B8B142BB25089CC5006D3BFA /* AppDelegate.swift */,
+				B8B142BD25089CC5006D3BFA /* SceneDelegate.swift */,
+				B8B142BF25089CC5006D3BFA /* ViewController.swift */,
+				B8B142C125089CC5006D3BFA /* Main.storyboard */,
+				B8B142DF2508D27D006D3BFA /* LocationSearchTable.swift */,
+				B8B142C425089CC6006D3BFA /* Assets.xcassets */,
+				B8B142C625089CC6006D3BFA /* LaunchScreen.storyboard */,
+				B8B142C925089CC6006D3BFA /* Info.plist */,
+			);
+			path = "LA Parking Meter Availability";
+			sourceTree = "<group>";
+		};
+		B8B142D125089CC6006D3BFA /* LA Parking Meter AvailabilityTests */ = {
+			isa = PBXGroup;
+			children = (
+				B8B142D225089CC6006D3BFA /* LA_Parking_Meter_AvailabilityTests.swift */,
+				B8B142D425089CC6006D3BFA /* Info.plist */,
+			);
+			path = "LA Parking Meter AvailabilityTests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B8B142B725089CC5006D3BFA /* LA Parking Meter Availability */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B8B142D725089CC6006D3BFA /* Build configuration list for PBXNativeTarget "LA Parking Meter Availability" */;
+			buildPhases = (
+				B8B142B425089CC5006D3BFA /* Sources */,
+				B8B142B525089CC5006D3BFA /* Frameworks */,
+				B8B142B625089CC5006D3BFA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "LA Parking Meter Availability";
+			productName = "LA Parking Meter Availability";
+			productReference = B8B142B825089CC5006D3BFA /* LA Parking Meter Availability.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B8B142CD25089CC6006D3BFA /* LA Parking Meter AvailabilityTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B8B142DA25089CC6006D3BFA /* Build configuration list for PBXNativeTarget "LA Parking Meter AvailabilityTests" */;
+			buildPhases = (
+				B8B142CA25089CC6006D3BFA /* Sources */,
+				B8B142CB25089CC6006D3BFA /* Frameworks */,
+				B8B142CC25089CC6006D3BFA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B8B142D025089CC6006D3BFA /* PBXTargetDependency */,
+			);
+			name = "LA Parking Meter AvailabilityTests";
+			productName = "LA Parking Meter AvailabilityTests";
+			productReference = B8B142CE25089CC6006D3BFA /* LA Parking Meter AvailabilityTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B8B142B025089CC5006D3BFA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Norman Chung";
+				TargetAttributes = {
+					B8B142B725089CC5006D3BFA = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					B8B142CD25089CC6006D3BFA = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = B8B142B725089CC5006D3BFA;
+					};
+				};
+			};
+			buildConfigurationList = B8B142B325089CC5006D3BFA /* Build configuration list for PBXProject "LA Parking Meter Availability" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B8B142AF25089CC5006D3BFA;
+			productRefGroup = B8B142B925089CC5006D3BFA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B8B142B725089CC5006D3BFA /* LA Parking Meter Availability */,
+				B8B142CD25089CC6006D3BFA /* LA Parking Meter AvailabilityTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B8B142B625089CC5006D3BFA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8B142C825089CC6006D3BFA /* LaunchScreen.storyboard in Resources */,
+				B8B142C525089CC6006D3BFA /* Assets.xcassets in Resources */,
+				B8B142C325089CC5006D3BFA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B8B142CC25089CC6006D3BFA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B8B142B425089CC5006D3BFA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8B142C025089CC5006D3BFA /* ViewController.swift in Sources */,
+				B8B142BC25089CC5006D3BFA /* AppDelegate.swift in Sources */,
+				B8B142BE25089CC5006D3BFA /* SceneDelegate.swift in Sources */,
+				B8B142E02508D27D006D3BFA /* LocationSearchTable.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B8B142CA25089CC6006D3BFA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8B142D325089CC6006D3BFA /* LA_Parking_Meter_AvailabilityTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B8B142D025089CC6006D3BFA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B8B142B725089CC5006D3BFA /* LA Parking Meter Availability */;
+			targetProxy = B8B142CF25089CC6006D3BFA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B8B142C125089CC5006D3BFA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B8B142C225089CC5006D3BFA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B8B142C625089CC6006D3BFA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B8B142C725089CC6006D3BFA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B8B142D525089CC6006D3BFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B8B142D625089CC6006D3BFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B8B142D825089CC6006D3BFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "LA Parking Meter Availability/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.LA-Parking-Meter-Availability";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B8B142D925089CC6006D3BFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "LA Parking Meter Availability/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.LA-Parking-Meter-Availability";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B8B142DB25089CC6006D3BFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "LA Parking Meter AvailabilityTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.LA-Parking-Meter-AvailabilityTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LA Parking Meter Availability.app/LA Parking Meter Availability";
+			};
+			name = Debug;
+		};
+		B8B142DC25089CC6006D3BFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "LA Parking Meter AvailabilityTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.LA-Parking-Meter-AvailabilityTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LA Parking Meter Availability.app/LA Parking Meter Availability";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B8B142B325089CC5006D3BFA /* Build configuration list for PBXProject "LA Parking Meter Availability" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8B142D525089CC6006D3BFA /* Debug */,
+				B8B142D625089CC6006D3BFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B8B142D725089CC6006D3BFA /* Build configuration list for PBXNativeTarget "LA Parking Meter Availability" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8B142D825089CC6006D3BFA /* Debug */,
+				B8B142D925089CC6006D3BFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B8B142DA25089CC6006D3BFA /* Build configuration list for PBXNativeTarget "LA Parking Meter AvailabilityTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8B142DB25089CC6006D3BFA /* Debug */,
+				B8B142DC25089CC6006D3BFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B8B142B025089CC5006D3BFA /* Project object */;
+}
